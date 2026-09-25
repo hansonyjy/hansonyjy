@@ -27,4 +27,4 @@ Tracks growth, inflation, policy, and liquidity across 8 economies. Scores each 
 
 ---
 
-📍 Los Angeles · [Email](mailto:hansonyang813@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hansony) · [Website](https://hansonyjy.github.io)
+📍 Los Angeles · [Email](mailto:hansonyang813@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hansony)
