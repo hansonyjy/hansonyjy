@@ -18,4 +18,4 @@
 
 ---
 
-<sub>Los Angeles · [Email](mailto:hansonyang813@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hansony)</sub>
+📍 Los Angeles · [Email](mailto:hansonyang813@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hansony)</sub>
