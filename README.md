@@ -8,7 +8,7 @@ Hi, I'm Hanson. MS Business Analytics candidate at UCLA Anderson, with a finance
 ## Selected work
 
 **[Starbucks Order Whisperer](https://github.com/hansonyjy/starbucks-order-whisperer)**
-1st of 19 teams, UCLA x Starbucks Data Challenge, 88.3% NDCG. A 3-stage pipeline that turns free-text drink orders into ranked recommendations. Claude extracts the constraints, deterministic rules filter the menu, a hybrid score ranks what is left.
+1st of 19, UCLA x Starbucks Data Challenge, 88.3% NDCG. A 3-stage pipeline that turns free-text drink orders into ranked recommendations. Claude extracts the constraints, deterministic rules filter the menu, a hybrid score ranks what is left.
 [Live demo](https://starbucks-order-whisperer.onrender.com/)
 
 **[churn-roi](https://github.com/hansonyjy/churn-roi)**
