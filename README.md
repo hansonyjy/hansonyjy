@@ -15,7 +15,7 @@ You can't watch 500 stocks at once. This does: six AI agents and a rules engine 
 1st of 19, UCLA x Starbucks Data Challenge, 88.3% NDCG. A 3-stage pipeline that turns free-text drink orders into ranked recommendations. Claude extracts the constraints, deterministic rules filter the menu, a hybrid score ranks what is left.
 [Live demo](https://starbucks-order-whisperer.onrender.com/)
 
-**[churn-roi](https://github.com/hansonyjy/churn-roi)**
+**[Churn ROI](https://github.com/hansonyjy/churn-roi)**
 A calibrated churn model inside an expected-value engine. Given a fixed retention budget, it picks which customers are worth saving and the return to expect, not just who is likely to leave.
 
 **[NYC Taxi Analytics Pipeline](https://github.com/hansonyjy/end-to-end-nyc-taxi-analytics-pipeline)**
