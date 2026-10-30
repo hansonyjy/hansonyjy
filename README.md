@@ -5,7 +5,7 @@
 
 Hi, I'm Hanson. MS Business Analytics candidate at UCLA Anderson, with a finance background from UBC. I build models and LLM systems, then use them to make a business case, not just a number.
 
-## Selected work
+### Things I've Built
 
 **[AI Market Desk](https://github.com/hansonyjy/ai-market-desk)**
 Six AI agents and a rules engine that watch the S&P 500 every 15 minutes and stay quiet until a move has a reason. Then one email: what moved, why (with sources), the key levels, two lenses that may disagree, and one plain call. Code computes every number; models only explain. Every call is graded against the market at 5 and 20 days, and a five-year Rule Lab with a placebo test decides which rules earn a place. Runs for about $1 a day.
@@ -23,7 +23,7 @@ A calibrated churn model inside an expected-value engine. Given a fixed retentio
 **[NYC Taxi Analytics Pipeline](https://github.com/hansonyjy/end-to-end-nyc-taxi-analytics-pipeline)**
 End-to-end cloud pipeline for NYC taxi demand: PySpark on Dataproc, GCS, Snowflake, Tableau.
 
-## What I build
+### What I build
 
 **Analytics & ML.** Models that turn customer data into a business decision: churn, lifetime value, recommendation.
 <sub>Python &middot; scikit-learn &middot; statsmodels &middot; calibration &middot; expected-value modeling</sub>
