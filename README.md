@@ -23,8 +23,6 @@ A calibrated churn model inside an expected-value engine. Given a fixed retentio
 **[NYC Taxi Analytics Pipeline](https://github.com/hansonyjy/end-to-end-nyc-taxi-analytics-pipeline)**
 End-to-end cloud pipeline for NYC taxi demand: PySpark on Dataproc, GCS, Snowflake, Tableau.
 
-Also building **Lumina**, a personal project in Claude Code. Private for now, more soon.
-
 ## What I build
 
 **Analytics & ML.** Models that turn customer data into a business decision: churn, lifetime value, recommendation.
