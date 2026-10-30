@@ -5,15 +5,13 @@
 
 Hi, I'm Hanson. MS Business Analytics candidate at UCLA Anderson, with a finance background from UBC. I build models and LLM systems, then use them to make a business case, not just a number.
 
-## Flagship
+## Selected work
 
 **[AI Market Desk](https://github.com/hansonyjy/ai-market-desk)**
 Six AI agents and a rules engine that watch the S&P 500 every 15 minutes and stay quiet until a move has a reason. Then one email: what moved, why (with sources), the key levels, two lenses that may disagree, and one plain call. Code computes every number; models only explain. Every call is graded against the market at 5 and 20 days, and a five-year Rule Lab with a placebo test decides which rules earn a place. Runs for about $1 a day.
 [`desk demo`](https://github.com/hansonyjy/ai-market-desk#see-it-work-without-keys) replays a recorded live session offline, no keys needed.
 
 <a href="https://github.com/hansonyjy/ai-market-desk"><img src="https://raw.githubusercontent.com/hansonyjy/ai-market-desk/main/docs/img/desk.gif" alt="AI Market Desk: one real alert from scanner hit to email to graded call" width="100%"></a>
-
-## Selected work
 
 **[Starbucks Order Whisperer](https://github.com/hansonyjy/starbucks-order-whisperer)**
 1st of 19, UCLA x Starbucks Data Challenge, 88.3% NDCG. A 3-stage pipeline that turns free-text drink orders into ranked recommendations. Claude extracts the constraints, deterministic rules filter the menu, a hybrid score ranks what is left.
