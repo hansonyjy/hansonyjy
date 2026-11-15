@@ -1,11 +1,10 @@
 name: Keep demos warm
 
-# Pings the live Render demos every 10 minutes during a roughly
+# Pings the live Render demo every 10 minutes during a roughly
 # 9am-9pm Pacific window (16:00-03:59 UTC covers PDT; it drifts to
-# 8am-8pm during PST months, which is fine). That is a 12-hour window
-# per service, so 2 services x 12h x 30 days = 720 instance-hours a
-# month, under Render's 750 free-hour workspace cap. Outside the
-# window both demos sleep normally and take about a minute to wake.
+# 8am-8pm during PST months, which is fine). Churn ROI now runs on
+# GitHub Pages and needs no ping. Outside the window the demo sleeps
+# normally and takes about a minute to wake.
 #
 # GitHub disables scheduled workflows automatically after 60 days
 # with no repo activity. A commit or a manual "Run workflow" click
@@ -22,6 +21,3 @@ jobs:
     steps:
       - name: Ping Starbucks Order Whisperer
         run: curl -fsS --max-time 20 https://starbucks-order-whisperer.onrender.com/ || true
-
-      - name: Ping churn-roi
-        run: curl -fsS --max-time 20 https://churn-roi.onrender.com/ || true
