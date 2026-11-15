@@ -1,40 +1,42 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.png">
-  <img src="./assets/hero-light.png" alt="Hanson Yang, data science. Decisions made, not models shipped. Analytics, data engineering and LLM agents for real business decisions." width="100%">
+  <img src="./assets/hero-light.png" alt="Hanson Yang, UCLA Anderson. Decisions made, not models shipped. Analytics, data engineering and LLM agents for real business decisions." width="100%">
 </picture>
 
-Hi, I'm Hanson. MS Business Analytics candidate at UCLA Anderson, with a finance background from UBC. I build models and LLM systems, then use them to make a business case, not just a number.
+Hi, I'm Hanson. MS Business Analytics at UCLA Anderson (Dec 2026), with a finance background from UBC. I start with the decision, then check whether the number behind it can be trusted.
 
 ### Things I've Built
 
-**[AI Market Desk](https://github.com/hansonyjy/ai-market-desk)**
-You can't watch 500 stocks at once. This does: six AI agents and a rules engine stay quiet until a move has a reason, then email one plain call with its sources. Every call is graded against the market, for about $1 a day.
-[`desk demo`](https://github.com/hansonyjy/ai-market-desk#see-it-work-without-keys) replays a recorded live session, no keys needed.
+**[Churn ROI](https://github.com/hansonyjy/churn-roi)**
+A customer with a 95% chance of leaving can be the wrong one to save. It scores 10,000 banking customers, spends a fixed retention budget by expected value, and stops when the next offer would lose money. EV targeting beat risk targeting by 20 to 41% in all 9 offer scenarios tested.
+[Live demo](https://hansonyjy.github.io/churn-roi/)
+
+**[NYC Taxi Weather](https://github.com/hansonyjy/end-to-end-nyc-taxi-analytics-pipeline)**
+Does rain change how many people take a taxi? The first dashboard said yes. Compared like for like across 7.37M trips, it barely does: JFK +1.0%, Central Park −1.2%, both within noise. The original gap came from charting totals instead of per-day averages, and from a de-duplication bug that dropped 45% of Central Park pickups.
+[Live dashboard](https://hansonyjy.github.io/end-to-end-nyc-taxi-analytics-pipeline/)
 
 **[Starbucks Order Whisperer](https://github.com/hansonyjy/starbucks-order-whisperer)**
-1st of 19, UCLA x Starbucks Data Challenge, 88.3% NDCG. A 3-stage pipeline that turns free-text drink orders into ranked recommendations. Claude extracts the constraints, deterministic rules filter the menu, a hybrid score ranks what is left.
+1st of 19, UCLA x Starbucks Data Challenge, 88.3% NDCG. Turns orders like "latte under 250 calories" into a ranked menu. Claude reads the request, hard rules filter the menu, and drinks are ranked by how well they fit the limits, with similarity only as a tiebreaker.
 [Live demo](https://starbucks-order-whisperer.onrender.com/)
 
-**[Churn ROI](https://github.com/hansonyjy/churn-roi)**
-A calibrated churn model inside an expected-value engine. Given a fixed retention budget, it picks which customers are worth saving and the return to expect, not just who is likely to leave.
-
-**[NYC Taxi Analytics Pipeline](https://github.com/hansonyjy/end-to-end-nyc-taxi-analytics-pipeline)**
-End-to-end cloud pipeline for NYC taxi demand: PySpark on Dataproc, GCS, Snowflake, Tableau.
+**[AI Stock Alert Agent](https://github.com/hansonyjy/ai-market-desk)** <sub>(AI Market Desk)</sub>
+Watches 500 stocks every 15 minutes and stays quiet until a move has a reason, then emails one plain call with its sources. Before trusting price signals, I backtested 461 of them over five years: only 2 held up, against 0 on random dates, so the system leans on the news instead. About $1 a day.
+[`desk demo`](https://github.com/hansonyjy/ai-market-desk#see-it-work-without-keys) replays a recorded live session, no keys needed.
 
 ### What I build
 
-**Analytics & ML.** Models that turn customer data into a business decision: churn, lifetime value, recommendation.
-<sub>Python &middot; scikit-learn &middot; statsmodels &middot; calibration &middot; expected-value modeling</sub>
+**Analytics.** The right comparison before the chart: experiments, like-for-like controls, expected value.
+<sub>SQL &middot; Python &middot; pandas &middot; statsmodels &middot; A/B testing &middot; bootstrap intervals &middot; Tableau</sub>
 
-**Data engineering.** Pipelines from raw sources to analytics-ready tables.
-<sub>SQL &middot; PySpark &middot; Snowflake &middot; GCP (Dataproc, GCS) &middot; Tableau</sub>
+**Data engineering.** Pipelines from raw sources to tables an analyst can trust.
+<sub>PySpark &middot; Snowflake &middot; DuckDB &middot; GCP (Dataproc, GCS) &middot; star schemas &middot; data-quality tests</sub>
+
+**Modeling.** Models that feed a decision, calibrated so the probabilities mean something.
+<sub>scikit-learn &middot; LightGBM &middot; calibration &middot; regression &middot; clustering &middot; Monte Carlo</sub>
 
 **LLM systems.** Multi-agent pipelines with structured outputs and deterministic checks around the model.
 <sub>Claude API &middot; multi-agent orchestration &middot; prompt design &middot; record/replay testing &middot; cost budgets</sub>
 
-**Markets.** Signal research and macro work built for portfolio conversations.
-<sub>Backtesting with placebo tests &middot; technical levels &middot; OECD and FRED data &middot; regime modeling &middot; factor analysis</sub>
-
 ---
 
-📍 Los Angeles &middot; [Email](mailto:hansonyang813@gmail.com) &middot; [LinkedIn](https://www.linkedin.com/in/hansony)
+📍 San Jose &middot; [Email](mailto:hansonyang813@gmail.com) &middot; [LinkedIn](https://www.linkedin.com/in/hansony)
